@@ -8,6 +8,7 @@ export default class Home extends Component {
     return (
       <div className="fader">
           <Link to="/auth"><img src={require('../assets/cobra.jpg')}  alt="bad-ass cobra"className="img-fluid center-block"/></Link>
+          <h1 className="font-strong text-center">Click on the snake!</h1>
       </div>
     )
   }
